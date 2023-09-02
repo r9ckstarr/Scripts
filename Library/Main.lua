@@ -31,8 +31,8 @@ local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
 
 local SelfModules = {
-	UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/r9ckstarr/Scripts/main/Library/UI.lua"))(),
-	Directory = loadstring(game:HttpGet("https://raw.githubusercontent.com/r9ckstarr/Scripts/main/Library/Directory.lua"))(),
+	UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/r9ckstarr/Scripts/master/Library/UI.lua"))(),
+	Directory = loadstring(game:HttpGet("https://raw.githubusercontent.com/r9ckstarr/Scripts/master/Library/Directory.lua"))(),
 }
 local Storage = { Connections = {}, Tween = { Cosmetic = {} } }
 
