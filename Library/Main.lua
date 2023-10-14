@@ -214,7 +214,8 @@ do
 	function library.new(title)
 		local container = utility:Create("ScreenGui", {
 			Name = title,
-			Parent = game.CoreGui
+			Parent = gethui()
+			Enabled = false,
 		}, {
 			utility:Create("ImageLabel", {
 				Name = "Main",
@@ -455,10 +456,6 @@ do
 				end
 			end
 		end
-	end
-	
-	function library:show(bool)
-		self.container.Enabled = bool
 	end
 
 	function library:toggle()
