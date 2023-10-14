@@ -1,4 +1,3 @@
--- venyx ui lib reuploaded by me
 -- init
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
@@ -459,7 +458,7 @@ do
 	end
 	
 	function library:show(bool)
-		container.Enabled = bool
+		self.container.Enabled = bool
 	end
 
 	function library:toggle()
