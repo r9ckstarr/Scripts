@@ -214,7 +214,7 @@ do
 	function library.new(title)
 		local container = utility:Create("ScreenGui", {
 			Name = title,
-			Parent = gethui()
+			Parent = gethui(),
 			Enabled = false,
 		}, {
 			utility:Create("ImageLabel", {
